@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681970183730",
+    "project_id": "crud-7187e",
+    "storage_bucket": "crud-7187e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681970183730:android:238dc0bab8439b6d2fd62b",
+        "android_client_info": {
+          "package_name": "com.example.noteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAexs-zq5g1RiWidagHdQhNKvyuTap1nTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
