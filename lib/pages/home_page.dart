@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:noteapp/firestore.dart';
-import 'package:noteapp/mydrawer.dart';
+import 'package:noteapp/firebase/firestore.dart';
+import 'package:noteapp/pages/mydrawer.dart';
 
 class Homepage extends StatelessWidget {
   Homepage({super.key});
@@ -9,7 +9,6 @@ class Homepage extends StatelessWidget {
   final FireStoreService fireStoreService = FireStoreService();
 
   final TextEditingController textcontroller = TextEditingController();
-  final _formkey = GlobalKey<FormState>();
 
   void openbox(BuildContext context, {String? docID}) {
     showDialog(

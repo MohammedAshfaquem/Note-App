@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noteapp/theme.dart';
+import 'package:noteapp/Theme/theme.dart';
 
 class Themeprivoder extends ChangeNotifier {
   ThemeData _themeData = lightmode;

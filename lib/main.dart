@@ -1,9 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:noteapp/firebase_options.dart';
-import 'package:noteapp/galleroage.dart';
+import 'package:noteapp/firebase/firebase_options.dart';
 import 'package:noteapp/pages/home_page.dart';
-import 'package:noteapp/themeprovider.dart';
+import 'package:noteapp/Theme/themeprovider.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
